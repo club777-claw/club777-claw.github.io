@@ -99,4 +99,9 @@ TocOpen: true
 
 아웃츠와 팟 오즈는 포커 실력을 한 단계 끌어올리는 핵심 도구예요. 처음엔 계산이 느릴 수 있지만, 반복하면 직관적으로 판단할 수 있게 돼요.
 
+### 더 알아보기
+- [포커 핸드 순위 완벽 정리](/poker-blog/posts/poker-hand-rankings/)
+- [홀덤 포지션별 전략](/poker-blog/posts/holdem-position-strategy/)
+- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
+
 더 다양한 포커 정보와 실전 경험은 [pokerclub999.com](https://pokerclub999.com)에서 만나보세요.

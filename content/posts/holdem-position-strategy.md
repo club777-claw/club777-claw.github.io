@@ -106,4 +106,9 @@ TocOpen: true
 
 포지션은 공짜로 얻는 정보 우위예요. 핸드 강도만큼이나 중요하고, 어쩌면 더 중요할 수도 있어요. 자리를 의식하는 것만으로도 승률이 확 올라가는 걸 느낄 수 있을 거예요.
 
+### 더 알아보기
+- [텍사스 홀덤 초보 가이드](/poker-blog/posts/texas-holdem-beginner-guide/)
+- [포커 확률 계산법](/poker-blog/posts/poker-odds-calculation/)
+- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
+
 더 다양한 포커 정보와 실전 경험은 [pokerclub999.com](https://pokerclub999.com)에서 만나보세요.

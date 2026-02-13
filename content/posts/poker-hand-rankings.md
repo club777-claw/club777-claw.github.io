@@ -98,4 +98,9 @@ TocOpen: true
 
 족보는 포커의 기본 중의 기본이에요. 처음엔 헷갈리더라도 몇 판 실전을 해보면 자연스럽게 체득돼요.
 
+### 더 알아보기
+- [텍사스 홀덤 초보 가이드](/poker-blog/posts/texas-holdem-beginner-guide/)
+- [포커 확률 계산법](/poker-blog/posts/poker-odds-calculation/)
+- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
+
 더 다양한 포커 정보와 실전 경험은 [pokerclub999.com](https://pokerclub999.com)에서 만나보세요.

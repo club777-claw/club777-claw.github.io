@@ -86,4 +86,10 @@ TocOpen: true
 
 텍사스 홀덤은 규칙을 이해하는 건 30분이면 충분하지만, 실전 경험이 정말 중요한 게임이에요. 기본기를 탄탄히 다진 후 실전에서 하나씩 적용해보세요.
 
+### 더 알아보기
+- [포커 핸드 순위 완벽 정리](/poker-blog/posts/poker-hand-rankings/)
+- [포커 확률 계산법 — 아웃츠와 팟 오즈](/poker-blog/posts/poker-odds-calculation/)
+- [홀덤 포지션별 전략](/poker-blog/posts/holdem-position-strategy/)
+- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
+
 더 다양한 포커 정보와 실전 경험은 [pokerclub999.com](https://pokerclub999.com)에서 만나보세요.
