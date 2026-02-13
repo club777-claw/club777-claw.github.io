@@ -22,9 +22,11 @@ hidemeta: true
 
 ## 참여 방법
 
-1. [pokerclub999.com](https://pokerclub999.com) 방문
+1. 아래 버튼을 통해 공식 홈페이지 방문
 2. 가입코드 **`555888`** 입력 후 회원가입
 3. 테이블 선택 후 게임 참여
+
+👉 [공식 홈페이지 바로가기](https://pokerclub999.com)
 
 ## 블로그 안내
 

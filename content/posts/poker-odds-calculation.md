@@ -104,4 +104,4 @@ TocOpen: true
 - [홀덤 포지션별 전략](/poker-blog/posts/holdem-position-strategy/)
 - [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
 
-더 다양한 포커 정보와 실전 경험은 [pokerclub999.com](https://pokerclub999.com)에서 만나보세요. 참여 방법이 궁금하다면 [클럽 소개 페이지](/poker-blog/about/)를 확인해보세요.
+실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/poker-blog/about/)를 확인해보세요.
