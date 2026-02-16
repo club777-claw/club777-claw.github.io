@@ -1,0 +1,353 @@
+/* ============================================
+   🎰 Premium Poker/Casino Theme for PaperMod
+   ============================================ */
+
+:root {
+  --casino-bg: #0d1117;
+  --casino-bg-secondary: #161b22;
+  --casino-bg-tertiary: #1c2333;
+  --casino-gold: #d4a853;
+  --casino-gold-light: #e8c875;
+  --casino-gold-dark: #c9a03f;
+  --casino-emerald: #1a7a4c;
+  --casino-emerald-light: #2ea86e;
+  --casino-text: #e6edf3;
+  --casino-text-muted: #8b949e;
+  --casino-border: #30363d;
+  --casino-card-bg: #161b22;
+  --casino-shadow: rgba(212, 168, 83, 0.08);
+}
+
+/* === Base === */
+body {
+  background: var(--casino-bg) !important;
+  color: var(--casino-text) !important;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* === Header / Nav === */
+.nav {
+  background: var(--casino-bg-secondary) !important;
+  border-bottom: 2px solid var(--casino-gold-dark) !important;
+  box-shadow: 0 2px 20px rgba(212, 168, 83, 0.1);
+}
+
+.logo a, .logo {
+  color: var(--casino-gold) !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  text-shadow: 0 0 20px rgba(212, 168, 83, 0.3);
+}
+
+#menu a {
+  color: var(--casino-text) !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#menu a:hover, #menu a.active {
+  color: var(--casino-gold) !important;
+}
+
+/* === Links === */
+.post-content a,
+.entry-content a,
+article a {
+  color: var(--casino-gold) !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.post-content a:hover,
+.entry-content a:hover,
+article a:hover {
+  color: var(--casino-gold-light) !important;
+  border-bottom-color: var(--casino-gold-light);
+}
+
+/* === Home Info === */
+.first-entry .entry-header h1,
+.home-info .entry-content,
+.home-info h1 {
+  color: var(--casino-gold) !important;
+}
+
+.home-info {
+  background: linear-gradient(135deg, var(--casino-bg-secondary), var(--casino-bg-tertiary)) !important;
+  border: 1px solid var(--casino-border) !important;
+  border-radius: 12px !important;
+  padding: 2rem !important;
+  box-shadow: 0 4px 30px rgba(212, 168, 83, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--casino-emerald), var(--casino-gold), var(--casino-emerald));
+}
+
+/* === Post List / Cards === */
+.post-entry {
+  background: var(--casino-card-bg) !important;
+  border: 1px solid var(--casino-border) !important;
+  border-radius: 10px !important;
+  margin-bottom: 1.2rem !important;
+  padding: 1.2rem 1.5rem !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-entry:hover {
+  border-color: var(--casino-gold) !important;
+  box-shadow: 0 4px 24px var(--casino-shadow), 0 0 0 1px var(--casino-gold-dark) !important;
+  transform: translateY(-2px);
+}
+
+.post-entry .entry-title,
+.entry-header h1,
+.entry-header h2 {
+  color: var(--casino-text) !important;
+}
+
+.post-entry:hover .entry-title {
+  color: var(--casino-gold) !important;
+}
+
+.entry-content, .post-content {
+  color: var(--casino-text) !important;
+}
+
+.post-meta, .post-description {
+  color: var(--casino-text-muted) !important;
+}
+
+/* === Article / Post Content === */
+.post-content h1, .post-content h2, .post-content h3,
+.post-content h4, .post-content h5, .post-content h6 {
+  color: var(--casino-text) !important;
+  border-bottom-color: var(--casino-border) !important;
+}
+
+.post-content h2 {
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--casino-border);
+}
+
+/* Blockquote */
+.post-content blockquote {
+  border-left: 4px solid var(--casino-gold) !important;
+  background: var(--casino-bg-secondary) !important;
+  color: var(--casino-text-muted) !important;
+  padding: 1rem 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Code blocks */
+.post-content pre {
+  background: var(--casino-bg-tertiary) !important;
+  border: 1px solid var(--casino-border) !important;
+  border-radius: 8px !important;
+}
+
+.post-content code {
+  background: var(--casino-bg-tertiary) !important;
+  color: var(--casino-gold-light) !important;
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+
+.post-content pre code {
+  color: var(--casino-text) !important;
+  padding: 0;
+}
+
+/* Tables */
+.post-content table {
+  border-color: var(--casino-border) !important;
+}
+
+.post-content th {
+  background: var(--casino-bg-tertiary) !important;
+  color: var(--casino-gold) !important;
+}
+
+.post-content td, .post-content th {
+  border-color: var(--casino-border) !important;
+  padding: 0.6rem 1rem;
+}
+
+.post-content tr:nth-child(even) {
+  background: var(--casino-bg-secondary);
+}
+
+/* === TOC === */
+.toc {
+  background: var(--casino-bg-secondary) !important;
+  border: 1px solid var(--casino-border) !important;
+  border-radius: 10px !important;
+  padding: 1rem 1.2rem !important;
+}
+
+.toc .inner {
+  margin: 0 !important;
+}
+
+.toc summary {
+  color: var(--casino-gold) !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.toc a {
+  color: var(--casino-text-muted) !important;
+  transition: color 0.2s;
+}
+
+.toc a:hover {
+  color: var(--casino-gold) !important;
+}
+
+/* === Footer === */
+.footer {
+  background: var(--casino-bg-secondary) !important;
+  border-top: 1px solid var(--casino-border) !important;
+  color: var(--casino-text-muted) !important;
+}
+
+.footer a {
+  color: var(--casino-gold-dark) !important;
+}
+
+.footer a:hover {
+  color: var(--casino-gold) !important;
+}
+
+/* === Social Icons === */
+.social-icons a {
+  color: var(--casino-text-muted) !important;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--casino-gold) !important;
+  transform: scale(1.15);
+}
+
+/* === Breadcrumbs === */
+.breadcrumbs a {
+  color: var(--casino-text-muted) !important;
+}
+
+.breadcrumbs a:hover {
+  color: var(--casino-gold) !important;
+}
+
+/* === Pagination === */
+.pagination a {
+  color: var(--casino-text) !important;
+  background: var(--casino-bg-secondary) !important;
+  border: 1px solid var(--casino-border) !important;
+  border-radius: 6px !important;
+  transition: all 0.3s;
+}
+
+.pagination a:hover {
+  border-color: var(--casino-gold) !important;
+  color: var(--casino-gold) !important;
+}
+
+/* === Search === */
+.search-input, #searchInput {
+  background: var(--casino-bg-secondary) !important;
+  border: 1px solid var(--casino-border) !important;
+  color: var(--casino-text) !important;
+  border-radius: 8px !important;
+}
+
+.search-input:focus, #searchInput:focus {
+  border-color: var(--casino-gold) !important;
+  box-shadow: 0 0 0 2px rgba(212, 168, 83, 0.2) !important;
+}
+
+/* === Scroll to Top === */
+.top-link {
+  background: var(--casino-gold-dark) !important;
+  color: var(--casino-bg) !important;
+  border: none !important;
+  border-radius: 50% !important;
+}
+
+.top-link:hover {
+  background: var(--casino-gold) !important;
+}
+
+/* === Share Buttons === */
+.share-buttons a {
+  background: var(--casino-bg-tertiary) !important;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.share-buttons a:hover {
+  background: var(--casino-gold-dark) !important;
+}
+
+/* === Tags === */
+.post-tags a, .terms-tags a {
+  background: var(--casino-bg-tertiary) !important;
+  color: var(--casino-gold) !important;
+  border: 1px solid var(--casino-border) !important;
+  border-radius: 20px !important;
+  padding: 0.25em 0.8em !important;
+  transition: all 0.3s;
+}
+
+.post-tags a:hover, .terms-tags a:hover {
+  border-color: var(--casino-gold) !important;
+  background: rgba(212, 168, 83, 0.1) !important;
+}
+
+/* === Selection === */
+::selection {
+  background: rgba(212, 168, 83, 0.3);
+  color: var(--casino-text);
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--casino-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--casino-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--casino-gold-dark);
+}
+
+/* === Mobile Responsive === */
+@media (max-width: 768px) {
+  .post-entry {
+    margin-bottom: 0.8rem !important;
+    padding: 1rem !important;
+  }
+  
+  .home-info {
+    padding: 1.5rem !important;
+  }
+}

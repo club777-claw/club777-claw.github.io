@@ -11,7 +11,7 @@ params:
   description: "온라인 포커 클럽 정보, 게임 가이드, 전략 팁을 제공하는 블로그입니다."
   keywords: [포커, 홀덤, 온라인 포커, 포커 클럽, 포커 전략]
   author: "포커클럽 가이드"
-  defaultTheme: auto
+  defaultTheme: dark
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -28,8 +28,8 @@ params:
   tocopen: false
 
   homeInfoParams:
-    Title: "온라인 포커 클럽 가이드 🃏"
-    Content: "포커 게임의 기본부터 전략까지, 신뢰할 수 있는 정보를 제공합니다."
+    Title: "♠️ Premium Poker Club Guide 🎰"
+    Content: "텍사스 홀덤의 기초부터 고급 전략까지 — 프로처럼 플레이하세요. ♦️♣️♥️♠️"
 
   socialIcons:
     - name: telegram
