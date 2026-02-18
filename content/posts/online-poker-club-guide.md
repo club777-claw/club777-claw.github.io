@@ -3,7 +3,7 @@ title: "온라인 포커 클럽이란? 프라이빗 포커방 구조와 참여 �
 date: 2026-02-13
 draft: false
 aliases:
-  - /poker-blog/posts/online-poker-club-guide/
+  - /posts/online-poker-club-guide/
 description: "온라인 포커 클럽의 개념, 프라이빗 포커방 구조, 참여 방법을 초보자도 이해할 수 있게 정리합니다."
 tags: ["온라인 포커", "포커 클럽", "프라이빗 포커"]
 categories: ["가이드"]
@@ -13,7 +13,7 @@ ShowToc: true
 TocOpen: true
 ---
 
-> 포커가 처음이라면 [텍사스 홀덤 초보 가이드](/poker-blog/posts/texas-holdem-beginner-guide/)부터 읽어보세요!
+> 포커가 처음이라면 [텍사스 홀덤 초보 가이드](/posts/texas-holdem-beginner-guide/)부터 읽어보세요!
 
 ## 온라인 포커 클럽이란
 

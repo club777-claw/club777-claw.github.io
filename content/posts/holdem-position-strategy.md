@@ -3,7 +3,7 @@ title: "홀덤 포지션별 전략 — 자리가 승률을 바꾼다"
 date: 2026-02-13T13:00:00+09:00
 draft: false
 aliases:
-  - /poker-blog/posts/holdem-position-strategy/
+  - /posts/holdem-position-strategy/
 description: "텍사스 홀덤에서 포지션이 중요한 이유와 각 자리별 최적 전략을 정리했어요."
 tags: ["홀덤 포지션", "포커 전략", "홀덤 자리", "포지션 플레이"]
 categories: ["포커 전략"]
@@ -109,8 +109,8 @@ TocOpen: true
 포지션은 공짜로 얻는 정보 우위예요. 핸드 강도만큼이나 중요하고, 어쩌면 더 중요할 수도 있어요. 자리를 의식하는 것만으로도 승률이 확 올라가는 걸 느낄 수 있을 거예요.
 
 ### 더 알아보기
-- [텍사스 홀덤 초보 가이드](/poker-blog/posts/texas-holdem-beginner-guide/)
-- [포커 확률 계산법](/poker-blog/posts/poker-odds-calculation/)
-- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
+- [텍사스 홀덤 초보 가이드](/posts/texas-holdem-beginner-guide/)
+- [포커 확률 계산법](/posts/poker-odds-calculation/)
+- [포커 블러핑 기술](/posts/poker-bluffing-guide/)
 
-실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/poker-blog/about/)를 확인해보세요.
+실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/about/)를 확인해보세요.

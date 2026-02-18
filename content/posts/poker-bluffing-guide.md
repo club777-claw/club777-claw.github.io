@@ -3,7 +3,7 @@ title: "포커 블러핑 기술 — 언제, 어떻게 블러프할 것인가"
 date: 2026-02-13T14:00:00+09:00
 draft: false
 aliases:
-  - /poker-blog/posts/poker-bluffing-guide/
+  - /posts/poker-bluffing-guide/
 description: "포커에서 블러핑의 원리, 타이밍, 실전 기술을 초보도 활용할 수 있게 정리했어요."
 tags: ["포커 블러핑", "블러프 전략", "홀덤 심리전", "포커 기술"]
 categories: ["포커 전략"]
@@ -103,8 +103,8 @@ A-K-Q 같은 하이 카드가 깔리면 상대도 겁을 먹어요. "저 사람�
 블러핑은 포커의 가장 스릴 있는 부분이지만, 무작정 하면 칩만 날리는 기술이기도 해요. 조건을 따지고, 타이밍을 잡고, 스토리를 만들어서 시도하세요. 잘 쓰면 포커가 10배 재미있어져요.
 
 ### 더 알아보기
-- [텍사스 홀덤 초보 가이드](/poker-blog/posts/texas-holdem-beginner-guide/)
-- [포커 핸드 순위 완벽 정리](/poker-blog/posts/poker-hand-rankings/)
-- [홀덤 포지션별 전략](/poker-blog/posts/holdem-position-strategy/)
+- [텍사스 홀덤 초보 가이드](/posts/texas-holdem-beginner-guide/)
+- [포커 핸드 순위 완벽 정리](/posts/poker-hand-rankings/)
+- [홀덤 포지션별 전략](/posts/holdem-position-strategy/)
 
-실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/poker-blog/about/)를 확인해보세요.
+실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/about/)를 확인해보세요.

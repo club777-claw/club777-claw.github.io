@@ -33,9 +33,9 @@ hidemeta: true
 이 블로그에서는 포커 전략, 확률, 용어 등 **실력 향상에 도움이 되는 정보성 콘텐츠**를 제공하고 있어요. 초보자부터 중급자까지 유용한 가이드를 만나보세요.
 
 ### 추천 가이드
-- [텍사스 홀덤 초보 가이드](/poker-blog/posts/texas-holdem-beginner-guide/)
-- [포커 핸드 순위 완벽 정리](/poker-blog/posts/poker-hand-rankings/)
-- [포커 확률 계산법](/poker-blog/posts/poker-odds-calculation/)
-- [홀덤 포지션별 전략](/poker-blog/posts/holdem-position-strategy/)
-- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
-- [온라인 포커 클럽이란?](/poker-blog/posts/online-poker-club-guide/)
+- [텍사스 홀덤 초보 가이드](/posts/texas-holdem-beginner-guide/)
+- [포커 핸드 순위 완벽 정리](/posts/poker-hand-rankings/)
+- [포커 확률 계산법](/posts/poker-odds-calculation/)
+- [홀덤 포지션별 전략](/posts/holdem-position-strategy/)
+- [포커 블러핑 기술](/posts/poker-bluffing-guide/)
+- [온라인 포커 클럽이란?](/posts/online-poker-club-guide/)

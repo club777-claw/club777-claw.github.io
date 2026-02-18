@@ -3,7 +3,7 @@ title: "텍사스 홀덤 초보 가이드 — 규칙부터 기본 전략까지"
 date: 2026-02-13T10:00:00+09:00
 draft: false
 aliases:
-  - /poker-blog/posts/texas-holdem-beginner-guide/
+  - /posts/texas-holdem-beginner-guide/
 description: "텍사스 홀덤의 기본 규칙, 게임 진행 순서, 초보자가 알아야 할 핵심 전략을 쉽게 정리했어요."
 tags: ["텍사스 홀덤", "홀덤 규칙", "포커 초보", "홀덤 전략"]
 categories: ["포커 가이드"]
@@ -89,9 +89,9 @@ TocOpen: true
 텍사스 홀덤은 규칙을 이해하는 건 30분이면 충분하지만, 실전 경험이 정말 중요한 게임이에요. 기본기를 탄탄히 다진 후 실전에서 하나씩 적용해보세요.
 
 ### 더 알아보기
-- [포커 핸드 순위 완벽 정리](/poker-blog/posts/poker-hand-rankings/)
-- [포커 확률 계산법 — 아웃츠와 팟 오즈](/poker-blog/posts/poker-odds-calculation/)
-- [홀덤 포지션별 전략](/poker-blog/posts/holdem-position-strategy/)
-- [포커 블러핑 기술](/poker-blog/posts/poker-bluffing-guide/)
+- [포커 핸드 순위 완벽 정리](/posts/poker-hand-rankings/)
+- [포커 확률 계산법 — 아웃츠와 팟 오즈](/posts/poker-odds-calculation/)
+- [홀덤 포지션별 전략](/posts/holdem-position-strategy/)
+- [포커 블러핑 기술](/posts/poker-bluffing-guide/)
 
-실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/poker-blog/about/)를 확인해보세요.
+실전 포커를 경험해보고 싶다면 [프라이빗 포커 커뮤니티 참여 안내](/about/)를 확인해보세요.
