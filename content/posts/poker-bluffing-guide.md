@@ -103,6 +103,7 @@ A-K-Q 같은 하이 카드가 깔리면 상대도 겁을 먹어요. "저 사람�
 블러핑은 포커의 가장 스릴 있는 부분이지만, 무작정 하면 칩만 날리는 기술이기도 해요. 조건을 따지고, 타이밍을 잡고, 스토리를 만들어서 시도하세요. 잘 쓰면 포커가 10배 재미있어져요.
 
 ### 더 알아보기
+- [체크레이즈 전략 완벽 가이드](/posts/poker-check-raise-strategy/)
 - [텍사스 홀덤 초보 가이드](/posts/texas-holdem-beginner-guide/)
 - [포커 핸드 순위 완벽 정리](/posts/poker-hand-rankings/)
 - [홀덤 포지션별 전략](/posts/holdem-position-strategy/)
