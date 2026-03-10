@@ -61,3 +61,25 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Submit to IndexNow
+        run: |
+          KEY="d38cbcf439ae2df6f747302a1ad9aaaa"
+          SITE="https://club777-claw.github.io"
+          # 최근 변경된 포스트 URL 추출 (최대 20개)
+          URLS=$(curl -s "${SITE}/sitemap.xml" | grep -oP '<loc>\K[^<]+' | head -20)
+          URL_ARRAY=$(echo "$URLS" | python3 -c "import sys,json; urls=[u.strip() for u in sys.stdin if u.strip()]; print(json.dumps(urls))")
+          PAYLOAD=$(python3 -c "
+          import json
+          payload = {
+            'host': 'club777-claw.github.io',
+            'key': '${KEY}',
+            'keyLocation': '${SITE}/${KEY}.txt',
+            'urlList': $URL_ARRAY
+          }
+          print(json.dumps(payload))
+          ")
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/IndexNow" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD")
+          echo "IndexNow response: $STATUS"
