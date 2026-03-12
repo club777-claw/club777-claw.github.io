@@ -62,22 +62,38 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Submit to IndexNow
+        continue-on-error: true
         run: |
+          set +e
           KEY="d38cbcf439ae2df6f747302a1ad9aaaa"
           SITE="https://club777-claw.github.io"
+          # 배포 직후 sitemap 반영 대기
+          sleep 10
           # 최근 변경된 포스트 URL 추출 (최대 20개)
-          URLS=$(curl -s "${SITE}/sitemap.xml" | grep -oP '<loc>\K[^<]+' | head -20)
-          URL_ARRAY=$(echo "$URLS" | python3 -c "import sys,json; urls=[u.strip() for u in sys.stdin if u.strip()]; print(json.dumps(urls))")
+          URLS=$(curl -s --retry 3 --retry-delay 5 "${SITE}/sitemap.xml" | grep -oP '<loc>\K[^<]+' | head -20)
+          if [ -z "$URLS" ]; then
+            echo "No URLs found in sitemap, skipping IndexNow"
+            exit 0
+          fi
+          URL_ARRAY=$(echo "$URLS" | python3 -c "import sys,json; urls=[u.strip() for u in sys.stdin if u.strip()]; print(json.dumps(urls))" 2>/dev/null || echo "[]")
+          if [ "$URL_ARRAY" = "[]" ]; then
+            echo "URL parsing failed, skipping IndexNow"
+            exit 0
+          fi
           PAYLOAD=$(python3 -c "
           import json
           payload = {
             'host': 'club777-claw.github.io',
             'key': '${KEY}',
             'keyLocation': '${SITE}/${KEY}.txt',
-            'urlList': $URL_ARRAY
+            'urlList': ${URL_ARRAY}
           }
           print(json.dumps(payload))
-          ")
+          " 2>/dev/null)
+          if [ -z "$PAYLOAD" ]; then
+            echo "Payload generation failed, skipping IndexNow"
+            exit 0
+          fi
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
             -X POST "https://api.indexnow.org/IndexNow" \
             -H "Content-Type: application/json" \
